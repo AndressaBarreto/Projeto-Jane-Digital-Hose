@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+h1 {
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header nav ul li {
+    list-style: none;
+
+}
+
+header nav ul li {
+    display: inline-block;
+    /* border: 2px solid black; */
+    padding: 5px 15px;
+
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: #555;
+
+}
+
+header {
+    /* background-color: orange;*/
+    text-align: center;
+    border: 2px solid #ccc;
+    position: fixed;
+     z-index:1000px;
+     width: 100%;
+     background-color: #fff
+    
+}
+
+main.banner{
+    width: 100%;
+    height:470px;
+    background-color: #555;
+    background-image: url('../img/jane.jpg');
+    background-position:center;
+    background-size:cover;
+}
+
+footer{
+    text-align: center;
+    padding:10px;
+    background-color: #f2f2f2
+}
+
+main.about{
+    text-align: center;
+}
+
+main.about cite {
+display:block;
+font-weight: 700;
+font-style: normal;
+font-size: 20px;
+
+
+}
+
+main.about img{
+    width:400px;
+}
+
+#Caixa { width:120px;
+    padding: 10px 0;
+    background-color:green;
+    color:white;
+    text-align:center;
+    font-weight: bold;
+    position:fixed;
+    bottom:0;
+    margin-right:20px;
+    right: 0; 
+    
+}
+
+@media (min-width:375px) and (max-widht:600px){
+#Caixa{display:none;}
+}
+
+header{
+    background-color: red
+}
+
+
+
+/*
+
+@media
